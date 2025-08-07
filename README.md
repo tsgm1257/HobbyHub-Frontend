@@ -1,31 +1,30 @@
 # HobbyHub – Frontend
 
-Live Site: [https://nimble-pixie-ed13e1.netlify.app/](https://nimble-pixie-ed13e1.netlify.app/)
+## Overview
+HobbyHub is a social platform that connects people through shared hobbies such as painting, hiking, and gaming.  
+The frontend is designed for performance, responsiveness, and accessibility using modern web technologies.
 
-HobbyHub is a social platform that connects people through shared hobbies like painting, hiking, gaming, and more. The frontend is built with modern technologies for performance, responsiveness, and accessibility.
+## Live Demo
+[HobbyHub Live Site](https://nimble-pixie-ed13e1.netlify.app/)
 
-## 🚀 Features
+## Tech Stack
+**Client:** React, Vite, React Router, Tailwind CSS, DaisyUI  
+**Auth:** Firebase Authentication (Email/Password + OAuth)  
+**Other:** React Toastify, React Simple Typewriter, Lottie React
 
-- 🎨 A modern, responsive UI built with React, Tailwind CSS, and DaisyUI
-- 🔐 Firebase-based authentication (Email/Password + OAuth)
-- 📅 Create and browse local hobby groups with full CRUD functionality
-- 🌙 Light/Dark theme toggle with persistent user preference
-- 📱 Mobile-friendly design with adaptive layout and hamburger menu
-- 🧭 Protected routes to ensure user-specific access (Create Group, My Groups)
-- 🖼️ Carousel banner, animated content, and custom 404 page
+## Features
+- Modern, responsive UI with light/dark mode
+- Firebase authentication with email/password & OAuth
+- Create, browse, and manage hobby groups (full CRUD)
+- Protected routes for user-specific actions (Create Group, My Groups)
+- Mobile-friendly adaptive design with hamburger menu
+- Carousel banner and animated content
+- Custom 404 (Not Found) page
 
-## 🧰 Technologies Used
+![Homepage](public/screenshots/home.png)
+![Group Details](public/screenshots/group-details.png)
 
-- React + Vite
-- Tailwind CSS + DaisyUI
-- Firebase Authentication
-- React Router
-- React Toastify
-- React Simple Typewriter
-- Lottie React
-- etc
-
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 src/
@@ -36,15 +35,27 @@ src/
   └── firebase/
 ```
 
-## 🛠 Setup Instructions
+## Setup Instructions
 
+## Run Locally
 ```bash
+git clone https://github.com/tsgm1257/HobbyHub-Frontend.git
+cd hobbyhub-frontend
 npm install
 npm run dev
 ```
 
-> 🔐 Create a `.env` file with your Firebase config using `VITE_` prefix for variables.
+## Environment Variables
+Create a `.env` file in the root with the following variables:
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
 
-## 👤 Author
+> Create a `.env` file with your Firebase config using `VITE_` prefix for variables.
+
+## Author
 
 - Developed by Tanzeem Siddique
