@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "1",
+    "groupName": "Sunset Painters",
+    "description": "Weekly painting at the park.",
+    "category": "Drawing & Painting",
+    "location": "Dallas",
+    "maxMembers": 15,
+    "startDate": "2025-06-15",
+    "imageUrl": "https://via.placeholder.com/600x300",
+    "createdBy": {
+      "name": "Alice",
+      "email": "alice@example.com"
+    }
+  },
+  {
+    "_id": "2",
+    "groupName": "Mountain Climbers",
+    "description": "Monthly hiking trips to the mountains.",
+    "category": "Outdoor Activities",
+    "location": "Denver",
+    "maxMembers": 20,
+    "startDate": "2025-07-01",
+    "imageUrl": "https://via.placeholder.com/600x300",
+    "createdBy": {
+      "name": "Bob",
+      "email": "alice@example.com"}
+    }
+]
